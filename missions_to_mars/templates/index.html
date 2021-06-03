@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- set up head -->
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +8,10 @@
   <title>Mission to Mars</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
-
+<!-- set up body -->
 <body>
   <div class="container">
+   
     <div row>
       <div class="col-md-12">
         <div class="jumbotron text-center">
@@ -20,22 +21,24 @@
       </div>
     </div>
   
-
+     <!-- news title and news paragraph -->
      <div class="row" >
       <div class="col-md-12">
         <h3 class="h3">Latest Mars News</h3>
         <h4 class="news_title">{{mars.news_title}}</h4>
         <h5 class=news_p>{{mars.news_p}}</h5>
        
+       </div>
       </div>
-    </div>
 
 
     <div class="row">
+      <!-- mars image -->
       <div class="col-md-7">
         <h3 class="h3">Featured Mars Image</h3>
         <img height="350" width="600" class="featured_image" src="{{mars.featured_image_url}}">
       </div>
+      <!-- mars table -->
       <div class="col-md-5">
         <h3 class="table title" style="text-decoration:bold">Mars Facts</h3>
         <table border="1" class="table table-striped">
@@ -94,7 +97,7 @@
       
       <div class="row"></div>
       
-      
+      <!-- mars hemispheres -->
       <div class="row">
           <div class="col-md-12">
               <h3 class="h3" Style="text-align:center;text-decoration:bold">Mars Hemispheres</h3>
@@ -124,7 +127,7 @@
     
 
           
-      </div>
+       </div>
   </div>
 </body>
 
