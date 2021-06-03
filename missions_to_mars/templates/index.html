@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mission to Mars</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <div row>
+      <div class="col-md-12">
+        <div class="jumbotron text-center">
+          <h1>Mission to Mars</h1>
+          <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Scrape New Data</a></p>
+        </div>
+      </div>
+    </div>
+  
+
+     <div class="row" >
+      <div class="col-md-12">
+        <h3 class="h3">Latest Mars News</h3>
+        <h4 class="news_title">{{mars.news_title}}</h4>
+        <h5 class=news_p>{{mars.news_p}}</h5>
+       
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-md-7">
+        <h3 class="h3">Featured Mars Image</h3>
+        <img height="350" width="600" class="featured_image" src="{{mars.featured_image_url}}">
+      </div>
+      <div class="col-md-5">
+        <h3 class="table title" style="text-decoration:bold">Mars Facts</h3>
+        <table border="1" class="table table-striped">
+            <thead>
+              <tr style="text-align: center;">
+                <th></th>
+                <th>Mars</th>
+                <th>Earth</th>
+              </tr>
+              
+            </thead>
+            <tbody>
+              <tr>
+                <th>Descripton</th>
+                <th></th>
+                <th></th>
+              </tr>
+              <tr>
+              <th>Mars - Earth Comparison</th>
+                <th>Mars</th>
+                <th>Earth</th>
+              </tr>
+              <tr>
+                <th>Diameter:</th>
+                <td>6,779 km</td>
+                <td>12,742 km</td>
+              </tr>
+              <tr>
+                <th>Mass:</th>
+                <td>6.39 × 10^23 kg</td>
+                <td>5.97 × 10^24 kg</td>
+              </tr>
+              <tr>
+                <th>Moons:</th>
+                <td>2</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <th>Distance from Sun:</th>
+                <td>227,943,824 km</td>
+                <td>149,598,262 km</td>
+              </tr>
+              <tr>
+                <th>Length of Year:</th>
+                <td>687 Earth days</td>
+                <td>365.24 days</td>
+              </tr>
+              <tr>
+                <th>Temperature:</th>
+                <td>-87 to -5 °C</td>
+                <td>-88 to 58°C</td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
+      
+      <div class="row"></div>
+      
+      
+      <div class="row">
+          <div class="col-md-12">
+              <h3 class="h3" Style="text-align:center;text-decoration:bold">Mars Hemispheres</h3>
+      <div class="row">
+          <div class="col-md-3">
+              <img height="200" width="200" src="{{mars.hemisphere_image_urls[0].img_url}}">
+              <h3 class="h4">{{mars.hemisphere_image_urls[0].title}}</h3>
+          </div>
+   
+      
+        <div class="col-md-3">
+            <img height="200" width="200" src="{{mars.hemisphere_image_urls[1].img_url}}">
+            <h3 class="h4">{{mars.hemisphere_image_urls[1].title}}</h3>
+        </div>
+   
+    
+        <div class="col-md-3">
+            <img height="200" width="200" src="{{mars.hemisphere_image_urls[2].img_url}}">
+            <h3 class="h4">{{mars.hemisphere_image_urls[2].title}}</h3>
+        </div>
+   
+   
+        <div class="col-md-3">
+            <img height="200" width="200" src="{{mars.hemisphere_image_urls[3].img_url}}">
+            <h3 class="h4">{{mars.hemisphere_image_urls[3].title}}</h3>
+        </div>
+    
+
+          
+      </div>
+  </div>
+</body>
+
+</html>
+
