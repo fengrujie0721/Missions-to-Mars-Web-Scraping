@@ -46,6 +46,10 @@ Use MongoDB with Flask templating to create a new HTML page that displays all of
 ![image](https://user-images.githubusercontent.com/79819331/120665454-c91a2780-c459-11eb-91bf-c6312618b997.png)
 
 
+![image](https://user-images.githubusercontent.com/79819331/120665752-0ed6f000-c45a-11eb-94f1-27ab4d008b00.png)
+
+
+
 
 ![image](https://user-images.githubusercontent.com/79819331/120665249-9a03b600-c459-11eb-97c3-d050405de7eb.png)
 
