@@ -29,3 +29,16 @@ Visit the Mars Facts webpage [here](https://galaxyfacts-mars.com) and use Pandas
 ![image](https://user-images.githubusercontent.com/79819331/120663717-447ad980-c458-11eb-9daf-28ffcb28142d.png)
 
 
+
+Visit the astrogeology site here to obtain high resolution images for each of Mar's hemispheres. Append the dictionary with the image url string and the hemisphere title to a list. This list will contain one dictionary for each hemisphere.
+
+![image](https://user-images.githubusercontent.com/79819331/120664042-97ed2780-c458-11eb-8d6a-d103943855f9.png)
+
+
+![image](https://user-images.githubusercontent.com/79819331/120664215-bf43f480-c458-11eb-931b-896a0da90195.png)
+
+
+
+
+
+
