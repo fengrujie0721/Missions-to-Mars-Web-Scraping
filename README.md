@@ -40,6 +40,9 @@ Visit the astrogeology site here to obtain high resolution images for each of Ma
 
 Use MongoDB with Flask templating to create a new HTML page that displays all of the information that was scraped from the URLs above.
 
+![image](https://user-images.githubusercontent.com/79819331/120664773-35e0f200-c459-11eb-85e9-6075df9de416.png)
+
+
 
 
 
