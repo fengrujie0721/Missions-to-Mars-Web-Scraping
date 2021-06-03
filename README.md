@@ -10,3 +10,7 @@ Scrape the [Mars News Site](https://redplanetscience.com/) and collect the lates
 
 Visit the url for the Featured Space Image site [here](https://spaceimages-mars.com). Use splinter to navigate the site and find the image url for the current Featured Mars Image and assign the url string to a variable called `featured_image_url`.
 
+
+![image](https://user-images.githubusercontent.com/79819331/120662439-252f7c80-c457-11eb-9e87-e386925f7ec0.png)
+
+
