@@ -22,3 +22,10 @@ Visit the Mars Facts webpage [here](https://galaxyfacts-mars.com) and use Pandas
 
 ![image](https://user-images.githubusercontent.com/79819331/120663048-aedf4a00-c457-11eb-8ad4-7e2208ab0460.png)
 
+
+![image](https://user-images.githubusercontent.com/79819331/120663325-eb12aa80-c457-11eb-8a7b-f0def8c44b2f.png)
+
+
+![image](https://user-images.githubusercontent.com/79819331/120663717-447ad980-c458-11eb-9daf-28ffcb28142d.png)
+
+
